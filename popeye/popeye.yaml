@@ -1,0 +1,14 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: popeye
+  result-type: popeye
+spec:
+  command:
+  - ./run.sh
+  image: schnake/sonobuoy-popeye:v0.1
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results
+
