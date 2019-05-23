@@ -1,4 +1,9 @@
-# Popeye as a Sonobuoy plugin
+# Plugin from a github repo
+
+
+## Popeye
+
+> Note: This started as an example of how to turn a github repo for a CLI tool into a Sonobuoy plugin from start to finish. The Popeye tool now already has an published Docker image so you can (1) use this as a hypothetical example for your own workflow (2) use the [Popeye image][popeyeImage] directly with the "plugin from image" flow described [here][polaris].
 
 I created this just as an experiment to see how simple it would be to make a [Sonobuoy][sonobuoy] plugin from [popeye][popeye].
 
@@ -29,3 +34,5 @@ Then open the results directory with your favorite editor.
 
 [sonobuoy]: https://github.com/heptio/sonobuoy
 [popeye]: https://github.com/derailed/popeye
+[popeyeImage]: https://cloud.docker.com/repository/docker/derailed/popeye
+[polaris]: ../polaris
